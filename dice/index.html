@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RANDOM DICE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="in">
+    <button type="submit" onclick="on()">random</button>
+
+    </div>
+    <div class="on">
+        <img id="img" src="defaukt (1).avif" alt="Display">
+    </div>
+    
+    <script >
+        function on(){
+        const c=Math.floor(Math.random()*6)+1;
+        const d=document.getElementById("img");
+        console.log(c);         
+    if(c==1){
+        d.src="dice-six-faces-one.png";
+
+    }
+    if(c==2){
+        d.src="dice-six-faces-two.png";
+    }
+    if(c==3){
+        d.src="dice-six-faces-three.png";
+    }
+    if(c==4){
+        d.src="dice-six-faces-four.png";
+    }
+    if(c==5){
+        d.src="dice-six-faces-five.png";
+    }
+    if(c==6){
+        d.src="dice-six-faces-six.png";
+    }
+}
+    </script>
+</body>
+</html>

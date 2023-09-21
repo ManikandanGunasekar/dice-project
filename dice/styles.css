@@ -1,0 +1,33 @@
+
+button{
+    margin-top:20px;
+    background-color:tomato;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: #0c1e5c;
+    cursor: pointer;
+}
+
+
+.on{
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 20%;
+    margin-bottom: 6%;
+}
+
+html,
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   min-height: 500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   background-color: rgba(110, 241, 253, 0.695);
+}
+
